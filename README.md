@@ -1,3 +1,18 @@
+In `pubspec.yaml`:
+```bash
+  # --- Use custom fork of ffmpeg-kit with fix for v1 embedding build failure ---
+  ffmpeg_kit_flutter:
+    git:
+      url: https://github.com/Carapacik/ffmpeg-kit
+      path: flutter/flutter
+  # ------------------------------------
+```
+
+
+<details>
+ <summary>Original readme</summary>
+
+
 # FFmpegKit ![GitHub release](https://img.shields.io/badge/release-v6.0-blue.svg) ![Maven Central](https://img.shields.io/maven-central/v/com.arthenica/ffmpeg-kit-min) ![CocoaPods](https://img.shields.io/cocoapods/v/ffmpeg-kit-ios-min) ![pub](https://img.shields.io/pub/v/ffmpeg_kit_flutter.svg) ![npm](https://img.shields.io/npm/v/ffmpeg-kit-react-native.svg)
 
 ## Notice
@@ -246,3 +261,4 @@ See our [CONTRIBUTING](CONTRIBUTING.md) guide.
 - [FFmpeg API Documentation](https://ffmpeg.org/doxygen/4.0/index.html)
 - [FFmpeg Wiki](https://trac.ffmpeg.org/wiki/WikiStart)
 - [FFmpeg External Library Licenses](https://www.ffmpeg.org/doxygen/4.0/md_LICENSE.html)
+</details>
