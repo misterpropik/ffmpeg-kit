@@ -3,7 +3,7 @@ In `pubspec.yaml`:
   # --- Use custom fork of ffmpeg-kit with fix for v1 embedding build failure ---
   ffmpeg_kit_flutter:
     git:
-      url: https://github.com/Carapacik/ffmpeg-kit
+      url: https://github.com/anonfaded/ffmpeg-kit
       path: flutter/flutter
   # ------------------------------------
 ```
