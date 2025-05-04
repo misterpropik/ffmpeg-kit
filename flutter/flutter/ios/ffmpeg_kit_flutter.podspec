@@ -3,9 +3,9 @@ Pod::Spec.new do |s|
   s.version          = '6.0.3'
   s.summary          = 'FFmpeg Kit for Flutter'
   s.description      = 'A Flutter plugin for running FFmpeg and FFprobe commands.'
-  s.homepage         = 'https://github.com/arthenica/ffmpeg-kit'
+  s.homepage         = 'https://github.com/anonfaded/ffmpeg-kit'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'ARTHENICA' => 'open-source@arthenica.com' }
+  s.author           = { '' => '' }
 
   s.platform            = :ios
   s.requires_arc        = true
